@@ -1,0 +1,15 @@
+*** Packages I have used ***
+--> yargs: to control command line. 
+--> chalk: to make command output awesome.
+
+*** To ADD note in 'notes.json' ***
+node app.js add --title="Cocacola" --body="My favourite drink is Cocacola"
+
+*** To Remove note in 'notes.json' ***
+node app.js remove --title="Cocacola"
+
+*** To View all note from 'notes.json' ***
+node app.js list
+
+*** To read specific note from 'notes.json' ***
+node app.js read --title="Cocacola"
